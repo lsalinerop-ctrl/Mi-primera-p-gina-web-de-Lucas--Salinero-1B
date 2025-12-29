@@ -6,17 +6,19 @@ He creado un sitio utilizando HTML y CSS siguiendo las introducciones y las pres
 
 El proyecto sigue la estructura de carpetas requerida:
 /css: Contiene la hoja de estilos global.
-/imganes: Almacena los recursos gráficos.
-public: Contiene todas las páginas HTML secundarias.
-- **Raíz**: Contiene `index.html` y la documentación.
+/imganes: las imagenes de la web.
+/Formulatio: Contiene un archivo html con el formulario
+/opinión asignatura: Contiene un archivo aboutme.html con la opinion de la asignatura
+/Otras webs: Contiene un archivo net.html con otras webs
+/sobremi: Contiene un archivo index.html con mi bibliografía.
+/Transformers Decepticons: Contiene un archivo Transformers.html con sección de los villanos de transformers
 
-### 3. Problemas durante el desarrollo
-- **Rutas relativas:** Al principio hubo confusión al enlazar archivos desde `public` hacia la hoja de estilos en `css`, ya que se requería subir un nivel (`../`).
-- **Diseño Responsive:** Ajustar el `grid` de la sección de villanos para que se viera bien en móviles requirió el uso de `minmax` en CSS Grid.
 
-### 4. Conclusiones
-Este proyecto ha permitido consolidar el conocimiento sobre la estructura semántica de HTML y la potencia de CSS para el diseño visual, especialmente el uso de Flexbox para menús y Grid para galerías.
+Este es el diseño de mi primera página web. La verdad, al principio me pareció un poco complicado porque es la primera vez que había hecho esto, pero dedicándole tiempo cada día durante estas navidades, lo he conseguido sacar adelante.
 
-## Autor
-[Tu Nombre y Apellidos]
-Grado en Ingeniería Informática - UFV
+He intentado evitar el uso de inteligencia artificial en la estructura principal, aunque ha habido cosas difíciles como el formulario. En las partes donde he usado IA, he añadido comentarios en el código para entender y explicar qué función realiza cada línea. Además, me han ayudado Jorge Guerrero y Rodrigo Paralela, especialmente en la programación de las pestañas de navegación para enlazar las páginas correctamente, ya que ellos tienen experiencia en desarrollo web. Por último me ha dado muchos errores el git push y el git commit es por eso que solo tengo tres git push.
+
+En conclusión, he aprendido a utilizar Visual Studio Code y ahora me siento capaz de desarrollar una página web por mí mismo.
+
+
+Lucas Salinero Pradillo 1ºB
