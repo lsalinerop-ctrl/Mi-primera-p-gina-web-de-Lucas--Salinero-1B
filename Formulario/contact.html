@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--Esto 4 comandos aseguran que: -->
+    <meta charset="UTF-8"> <!--Las tildes se vean bien -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--La web se ajuste al móvil -->
+    <title>Contacto</title>
+    <!--Las fuentes de las imágnes -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilo.css"> <!-- Enlace al archivo CSS externo -->
+</head>
+<body>
+
+    <header>
+        <h1>Zona de Contacto</h1>
+        <p>Establecer enlace de comunicación</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../sobremi/index.html">Mi vida personal</a></li>
+            <li><a href="../opinión asignatura/aboutme.html">Opinión sobre la asignatura</a></li>
+            <li><a href="../Formulario/contact.html" class="active">En contacto</a></li>
+            <li><a href="../Otras webs/net.html">Otras WEB</a></li>
+            <li><a href="../Transformers Decepticons/Transformers.html">Topic (Transformers)</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="intro">
+            <h2>Formulario para enviárselo a los Tranformers</h2>
+            <p>Rellena los siguientes datos para enviar un mensaje a Lucas Salinero Pradillo</p>
+        </section>
+
+        <div class="form-container">
+            <form action="#" method="post">
+                
+                <div class="form-group">
+                    <label for="name">Nombre / Designación:</label>
+                    <input type="text" id="name" name="name" placeholder="Tu nombre aquí" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" placeholder="usuario@ejemplo.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Escribe tu mensaje..." required></textarea>
+                </div>
+
+                <button type="submit">Enviar Datos</button>
+
+            </form>
+        </div>
+
+    </main>
+
+</body>
+</html>

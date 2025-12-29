@@ -1,0 +1,193 @@
+/* --- ESTILOS GENERALES (Para toda la web) --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #000000 0%, #1a001a 100%);
+    color: #fff;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+header {
+    background: linear-gradient(135deg, #4b0082 0%, #6a0dad 100%);
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(106, 13, 173, 0.3);
+}
+
+header h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 1.1em;
+    opacity: 0.95;
+}
+
+/* MENÚ DE NAVEGACIÓN */
+nav {
+    background: #000000;
+    padding: 15px 0;
+    border-bottom: 2px solid #6a0dad;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s;
+    padding: 5px 10px;
+}
+
+nav a:hover,
+nav a.active {
+    color: #6a0dad;
+    border-bottom: 2px solid #6a0dad;
+}
+
+/* CONTENEDORES Y TARJETAS */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.intro h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #6a0dad;
+    text-transform: uppercase;
+}
+
+/* Estilo para las cajas */
+.villains-grid, .card, .profile-card, .form-container, .text-card {
+    width: 100%;
+}
+
+.villains-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.card, .profile-card, .form-container, .text-card {
+    background: linear-gradient(135deg, #0b0b0b 0%, #1a0326 100%);
+    border: 2px solid #6a0dad;
+    border-radius: 10px;
+    padding: 20px; /* Ajuste general */
+    margin-bottom: 20px;
+    box-shadow: 0 4px 15px rgba(106, 13, 173, 0.2);
+}
+
+.card img, .profile-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border: 5px solid #6a0dad;
+    margin-bottom: 15px;
+}
+
+.card h3, .text-card h3 {
+    font-family: 'Orbitron', sans-serif;
+    color: #6a0dad;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.role {
+    color: #b388ff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* FORMULARIO */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #b388ff;
+    font-family: 'Orbitron', sans-serif;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 15px;
+    background-color: #050505;
+    border: 1px solid #4b0082;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(135deg, #4b0082 0%, #6a0dad 100%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Orbitron', sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #6a0dad 0%, #8a2be2 100%);
+}
+
+/* LISTA DE COMPAÑEROS (NET) */
+.network-list {
+    list-style: none;
+    width: 100%;
+    max-width: 800px;
+}
+.network-list li { margin-bottom: 20px; }
+.network-list a {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: rgba(10, 10, 10, 0.8);
+    border: 1px solid #4b0082;
+    border-left: 5px solid #6a0dad;
+    color: #fff;
+    text-decoration: none;
+}
+.mate-name { font-weight: bold; color: #b388ff; font-family: 'Orbitron', sans-serif; }
