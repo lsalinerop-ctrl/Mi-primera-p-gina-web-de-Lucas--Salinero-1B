@@ -1,4 +1,4 @@
-/* --- ESTILOS GENERALES (Para toda la web) --- */
+/* --- estilo de la web (morado ,negro y el tipo de letra) --- */
 * {
     margin: 0;
     padding: 0;
@@ -33,7 +33,7 @@ header p {
     opacity: 0.95;
 }
 
-/* MENÚ DE NAVEGACIÓN */
+/* Menú de navegación */
 nav {
     background: #000000;
     padding: 15px 0;
@@ -68,7 +68,7 @@ nav a.active {
     border-bottom: 2px solid #6a0dad;
 }
 
-/* CONTENEDORES Y TARJETAS */
+/* Cajas y Tarjetas del apartado de transformers */
 main {
     max-width: 1200px;
     margin: 0 auto;
@@ -133,7 +133,7 @@ main {
     margin-bottom: 10px;
 }
 
-/* FORMULARIO */
+/* Formulario */
 .form-group {
     margin-bottom: 20px;
     text-align: left;
@@ -173,7 +173,7 @@ button:hover {
     background: linear-gradient(135deg, #6a0dad 0%, #8a2be2 100%);
 }
 
-/* LISTA DE COMPAÑEROS (NET) */
+/* Apartado de la página web de los compañeros */
 .network-list {
     list-style: none;
     width: 100%;
